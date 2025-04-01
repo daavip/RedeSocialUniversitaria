@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{1C344895-517D-4098-9D4D-C4765C364E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{4B4A43EF-B6DF-4F11-A566-A2F088F33CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{E9B8A990-4CAD-4BD4-BC19-1729F6BE3B4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{0AE3E20B-0043-4954-88E0-2B503F2CB966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedeSocialUniversitaria.Api", "RedeSocialUniversitaria.Api\RedeSocialUniversitaria.Api.csproj", "{EC602B41-8C6E-49B4-978B-BC79920C9C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedeSocialUniversitaria.Domain", "RedeSOcialUniversitaria.Domain\RedeSocialUniversitaria.Domain.csproj", "{960C2EC2-1F74-4E26-B189-2C870038CA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedeSocialUniversitaria.Infra", "RedeSocialUniversitaria.Infra\RedeSocialUniversitaria.Infra.csproj", "{61A7CDA6-89FE-4ACF-BCAC-78C5190A9038}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC602B41-8C6E-49B4-978B-BC79920C9C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC602B41-8C6E-49B4-978B-BC79920C9C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC602B41-8C6E-49B4-978B-BC79920C9C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC602B41-8C6E-49B4-978B-BC79920C9C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960C2EC2-1F74-4E26-B189-2C870038CA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960C2EC2-1F74-4E26-B189-2C870038CA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960C2EC2-1F74-4E26-B189-2C870038CA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960C2EC2-1F74-4E26-B189-2C870038CA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A7CDA6-89FE-4ACF-BCAC-78C5190A9038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A7CDA6-89FE-4ACF-BCAC-78C5190A9038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A7CDA6-89FE-4ACF-BCAC-78C5190A9038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A7CDA6-89FE-4ACF-BCAC-78C5190A9038}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC602B41-8C6E-49B4-978B-BC79920C9C47} = {1C344895-517D-4098-9D4D-C4765C364E0E}
+		{960C2EC2-1F74-4E26-B189-2C870038CA60} = {E9B8A990-4CAD-4BD4-BC19-1729F6BE3B4B}
+		{61A7CDA6-89FE-4ACF-BCAC-78C5190A9038} = {0AE3E20B-0043-4954-88E0-2B503F2CB966}
+	EndGlobalSection
+EndGlobal
